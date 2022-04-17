@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jamie/OneDrive - Dundalk Institute of Technology/C++/CPP22_Start_Code
+# Install script for directory: C:/Users/jamie/CLionProjects/CplusplusCA/CPP22_Start_Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jamie/OneDrive - Dundalk Institute of Technology/C++/CPP22_Start_Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jamie/CLionProjects/CplusplusCA/CPP22_Start_Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

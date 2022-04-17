@@ -57,6 +57,9 @@ public:
     int getHeight();
     ~Image() { if (pixels != nullptr) delete [] pixels; }
 
+
+
+
 };
 
 

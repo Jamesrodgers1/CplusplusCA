@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code"
+CMAKE_SOURCE_DIR = C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WindowsApplication.dir/depend.make
@@ -71,44 +71,44 @@ include CMakeFiles/WindowsApplication.dir/flags.make
 CMakeFiles/WindowsApplication.dir/main.cpp.obj: CMakeFiles/WindowsApplication.dir/flags.make
 CMakeFiles/WindowsApplication.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/WindowsApplication.dir/main.cpp.obj: CMakeFiles/WindowsApplication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WindowsApplication.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/main.cpp.obj -MF CMakeFiles\WindowsApplication.dir\main.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\main.cpp.obj -c "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WindowsApplication.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/main.cpp.obj -MF CMakeFiles\WindowsApplication.dir\main.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\main.cpp.obj -c C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\main.cpp
 
 CMakeFiles/WindowsApplication.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WindowsApplication.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\main.cpp" > CMakeFiles\WindowsApplication.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\main.cpp > CMakeFiles\WindowsApplication.dir\main.cpp.i
 
 CMakeFiles/WindowsApplication.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WindowsApplication.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\main.cpp" -o CMakeFiles\WindowsApplication.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\main.cpp -o CMakeFiles\WindowsApplication.dir\main.cpp.s
 
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj: CMakeFiles/WindowsApplication.dir/flags.make
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj: ../UsefulFunctions.cpp
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj: CMakeFiles/WindowsApplication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj -MF CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.obj -c "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\UsefulFunctions.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj -MF CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.obj -c C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\UsefulFunctions.cpp
 
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\UsefulFunctions.cpp" > CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\UsefulFunctions.cpp > CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.i
 
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\UsefulFunctions.cpp" -o CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\UsefulFunctions.cpp -o CMakeFiles\WindowsApplication.dir\UsefulFunctions.cpp.s
 
 CMakeFiles/WindowsApplication.dir/Image.cpp.obj: CMakeFiles/WindowsApplication.dir/flags.make
 CMakeFiles/WindowsApplication.dir/Image.cpp.obj: ../Image.cpp
 CMakeFiles/WindowsApplication.dir/Image.cpp.obj: CMakeFiles/WindowsApplication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WindowsApplication.dir/Image.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/Image.cpp.obj -MF CMakeFiles\WindowsApplication.dir\Image.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\Image.cpp.obj -c "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\Image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WindowsApplication.dir/Image.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WindowsApplication.dir/Image.cpp.obj -MF CMakeFiles\WindowsApplication.dir\Image.cpp.obj.d -o CMakeFiles\WindowsApplication.dir\Image.cpp.obj -c C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\Image.cpp
 
 CMakeFiles/WindowsApplication.dir/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WindowsApplication.dir/Image.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\Image.cpp" > CMakeFiles\WindowsApplication.dir\Image.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\Image.cpp > CMakeFiles\WindowsApplication.dir\Image.cpp.i
 
 CMakeFiles/WindowsApplication.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WindowsApplication.dir/Image.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\Image.cpp" -o CMakeFiles\WindowsApplication.dir\Image.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\Image.cpp -o CMakeFiles\WindowsApplication.dir\Image.cpp.s
 
 # Object files for target WindowsApplication
 WindowsApplication_OBJECTS = \
@@ -126,7 +126,7 @@ WindowsApplication.exe: CMakeFiles/WindowsApplication.dir/build.make
 WindowsApplication.exe: CMakeFiles/WindowsApplication.dir/linklibs.rsp
 WindowsApplication.exe: CMakeFiles/WindowsApplication.dir/objects1.rsp
 WindowsApplication.exe: CMakeFiles/WindowsApplication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WindowsApplication.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WindowsApplication.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\WindowsApplication.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/WindowsApplication.dir/clean:
 .PHONY : CMakeFiles/WindowsApplication.dir/clean
 
 CMakeFiles/WindowsApplication.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code" "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code" "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug" "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug" "C:\Users\jamie\OneDrive - Dundalk Institute of Technology\C++\CPP22_Start_Code\cmake-build-debug\CMakeFiles\WindowsApplication.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\cmake-build-debug\CMakeFiles\WindowsApplication.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WindowsApplication.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj: \
- C:\Users\jamie\OneDrive\ -\ Dundalk\ Institute\ of\ Technology\C++\CPP22_Start_Code\UsefulFunctions.cpp \
- C:\Users\jamie\OneDrive\ -\ Dundalk\ Institute\ of\ Technology\C++\CPP22_Start_Code\UsefulFunctions.h \
+ C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\UsefulFunctions.cpp \
+ C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\UsefulFunctions.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -361,7 +361,7 @@ CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/tchar.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/tchar_s.h \
- C:\Users\jamie\OneDrive\ -\ Dundalk\ Institute\ of\ Technology\C++\CPP22_Start_Code\Image.h \
+ C:\Users\jamie\CLionProjects\CplusplusCA\CPP22_Start_Code\Image.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \

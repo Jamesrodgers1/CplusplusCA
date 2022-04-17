@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/jamie/OneDrive - Dundalk Institute of Technology/C++/CPP22_Start_Code/Image.cpp" "CMakeFiles/WindowsApplication.dir/Image.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/Image.cpp.obj.d"
-  "C:/Users/jamie/OneDrive - Dundalk Institute of Technology/C++/CPP22_Start_Code/UsefulFunctions.cpp" "CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj.d"
-  "C:/Users/jamie/OneDrive - Dundalk Institute of Technology/C++/CPP22_Start_Code/main.cpp" "CMakeFiles/WindowsApplication.dir/main.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/main.cpp.obj.d"
+  "C:/Users/jamie/CLionProjects/CplusplusCA/CPP22_Start_Code/Image.cpp" "CMakeFiles/WindowsApplication.dir/Image.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/Image.cpp.obj.d"
+  "C:/Users/jamie/CLionProjects/CplusplusCA/CPP22_Start_Code/UsefulFunctions.cpp" "CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/UsefulFunctions.cpp.obj.d"
+  "C:/Users/jamie/CLionProjects/CplusplusCA/CPP22_Start_Code/main.cpp" "CMakeFiles/WindowsApplication.dir/main.cpp.obj" "gcc" "CMakeFiles/WindowsApplication.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

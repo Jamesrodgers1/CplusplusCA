@@ -5,8 +5,12 @@
 #include <fstream>
 #include <iomanip>
 #include <cstring>
+#include <vector>
 #include "Image.h"
+#include "UsefulFunctions.h"
 
+#define filterWidth 3
+#define filterHeight 3
 
 
 bool Image::load(string filename)
@@ -127,17 +131,29 @@ void Image::flipVertically()
         }
     }
 }
-void Image::AdditionalFunction2()
-{
-
+void Image::AdditionalFunction2() {
+    for (int i = 0; i < w / 2; i++) {
+        for (int j = 0; j < h; j++) {
+            swap(pixels[j + i * h], pixels[j + (w - 1 - i) * h]);
+        }
+    }
 }
-void Image::AdditionalFunction3()
-{
 
-}
+
+void Image::AdditionalFunction3() {
+
+
+    }
+
 void Image::AdditionalFunction1()
 {
-
+    for (int i = 0; i < w; i++)
+    {
+        for (int j = 0; j < h ; j++)
+        {
+            swap(pixels[i,j],  pixels[h-1-j,i]);
+        }
+    }
 }
 
 /* Functions used by the GUI - DO NOT MODIFY */
@@ -155,3 +171,4 @@ Rgb* Image::getImage()
 {
     return pixels;
 }
+
