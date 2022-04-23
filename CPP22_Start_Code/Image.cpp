@@ -129,17 +129,33 @@ void Image::flipVertically()
 }
 void Image::AdditionalFunction2()
 {
+    int size = w * h;
 
+    for (int i = 0; i < size; i++)
+    {
+        unsigned char whiten= ((256 -this->pixels[i].r) + (256 -this->pixels[i].g) + (256 -this->pixels[i].b))/ 3;
+        this->pixels[i] = whiten;
+        this->pixels[i] = whiten;
+        this->pixels[i] = whiten;
+    }
+    //https://devblogs.microsoft.com/oldnewthing/20220307-00/?p=106317
 }
-void Image::AdditionalFunction3()
-{
-
+void Image::AdditionalFunction3() {
+    for (int i = 0; i < h; i++) {
+        for (int j = 0; j < w / 2; ++j) {
+           this->pixels[(i*w+j)]= pixels[(i*w+(w-j))];
+        }
+    }
 }
+//https://www.youtube.com/watch?v=zjxmZ4AODgI&t=2340s
 void Image::AdditionalFunction1()
 {
-
+    for(int i = 0; i <  w * h; i++)
+    {
+        swap(pixels[i].r, pixels[i].b);
+    }
 }
-
+//https://www.youtube.com/watch?v=zjxmZ4AODgI&t=2340s
 /* Functions used by the GUI - DO NOT MODIFY */
 int Image::getWidth()
 {
