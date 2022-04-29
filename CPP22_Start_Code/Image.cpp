@@ -31,7 +31,6 @@ bool Image::load(string filename)
             this->pixels[i].g = pix[1];
             this->pixels[i].b = pix[2];
             if(i < 100) {
-//            cout << (int)pixels[i].r << (int)pixels[i].g << (int)pixels[i].b << endl;
             }
         }
         return true;
@@ -53,7 +52,6 @@ bool Image::loadRaw(string filename)
             pixels[i].r = (unsigned char) (r *255);
             pixels[i].g = (unsigned char) (g *255);
             pixels[i].b = (unsigned char) (b *255);
-            cout << r << pixels[i].r << endl;
         }
         input.close();
         return true;
@@ -146,6 +144,7 @@ void Image::flipVertically()
 }
 void Image::AdditionalFunction2()
 {
+    //whitens most pixels
     int size = w * h;
 
     for (int i = 0; i < size; i++)
@@ -158,6 +157,7 @@ void Image::AdditionalFunction2()
     //https://devblogs.microsoft.com/oldnewthing/20220307-00/?p=106317
 }
 void Image::AdditionalFunction3() {
+    //mirror
     for (int i = 0; i < h; i++) {
         for (int j = 0; j < w / 2; ++j) {
            this->pixels[(i*w+j)]= pixels[(i*w+(w-j))];
@@ -167,6 +167,7 @@ void Image::AdditionalFunction3() {
 //https://www.youtube.com/watch?v=zjxmZ4AODgI&t=2340s
 void Image::AdditionalFunction1()
 {
+    //swap red and blue
     for(int i = 0; i <  w * h; i++)
     {
         swap(pixels[i].r, pixels[i].b);
@@ -174,6 +175,43 @@ void Image::AdditionalFunction1()
 }
 //https://www.youtube.com/watch?v=zjxmZ4AODgI&t=2340s
 /* Functions used by the GUI - DO NOT MODIFY */
+
+void Image::AdvancedFunction1() {
+    //Blur
+    float rTotal = 0, gTotal=0, bTotal=0;
+    for(int y = 0 ; y < h; y++)
+    {
+        for(int x = 0 ; x < w; x++)
+        {
+            rTotal = 0; gTotal=0; bTotal=0;
+            if(x==0||y==0||x==w-1||y==h-1)
+                continue;
+            else
+            {
+                //takes current pixels and shifts and covers said pixels making the blur affect
+                Rgb neighbours[] = {pixels[(y-1)*w+(x-1)],pixels[(y-1)*w+x],pixels[(y-1)*w+x+1]
+                        ,pixels[(y)*w+x-1],pixels[(y)*w+x],pixels[(y)*w+x+1],
+                                    pixels[(y+1)*w+(x-1)],pixels[(y+1)*w+x],pixels[(y+1)*w+x+1]};
+
+                for(Rgb p: neighbours)
+                {
+                    rTotal += p.r;
+                    gTotal += p.g;
+                    bTotal += p.b;
+
+                }
+                pixels[y*w+x].r=rTotal/9;
+                pixels[y*w+x].g=gTotal/9;
+                pixels[y*w+x].b=bTotal/9;
+
+
+            }
+
+        }
+    }
+}
+
+
 int Image::getWidth()
 {
     return w;
